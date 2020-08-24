@@ -1,0 +1,47 @@
+.aboutGrid, .applyGrid {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10vh 10% 0 10%;
+  gap: 1em;
+}
+.applyGrid {
+    padding: 0vh 10% 25vh 10%;
+}
+.aboutGrid article  {
+    width: 100%;
+    width: 50vh;
+    padding: 10vh 0;
+}
+.applyGrid article{
+      padding: 20vh 0;
+}
+.aboutGrid h3, .applyGrid h3 {
+  color: #ee4d47;
+  padding-bottom: 3vh;
+}
+.aboutGrid p, .applyGrid p {
+  color: #402b2b;
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 2.5;
+  padding-bottom: 5vh;
+}
+.textCard {
+       color: #402b2b;
+  background: rgba(252, 221, 212, 0.5);
+   padding: 2vh 0;
+   border-radius: 5px;
+   border-left: 10px solid #ee4d47;
+}
+.textCard h4 {
+   padding: 0 10%;
+   line-height: 1.5;
+}
+.bg1 {
+    background: url(/Group11.svg) center/contain no-repeat;
+}
+.bg2 {
+    background: url(/illustrations.svg) center/cover no-repeat;
+}
