@@ -11,14 +11,9 @@ const faq = () => {
                 <title>Traffico FAQ</title>
                 <link rel="icon" href="/favicon.svg" />
             </Head>
-            
-            <Header />
-
+            {/* <Header /> */}
             <FaqCards />
-
-           
-
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
