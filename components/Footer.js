@@ -102,6 +102,12 @@ const Footer = () => {
           .social li {
             margin-left: 10px;
           }
+          .social a img {
+            transition: all 0.5s;
+          }
+          .social a img:hover {
+            transform: scale(1.1);
+          }
           nav {
             width: 75%;
             margin: 0 auto;
@@ -116,6 +122,12 @@ const Footer = () => {
             margin: 0 auto;
             justify-content: space-between;
             align-items: center;
+          }
+          nav ul li {
+            transition: all 0.5s;
+          }
+          nav ul li:hover {
+            color: rgba(252, 221, 212, 0.5);
           }
         `}
       </style>

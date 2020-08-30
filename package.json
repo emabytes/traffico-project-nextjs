@@ -12,6 +12,8 @@
     "react": "16.13.1",
     "react-collapsible": "^2.8.0",
     "react-dom": "16.13.1",
-    "react-multi-carousel": "^2.5.5"
+    "react-multi-carousel": "^2.5.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1"
   }
 }

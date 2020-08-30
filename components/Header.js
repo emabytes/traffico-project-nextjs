@@ -10,14 +10,18 @@ const Header = () => {
                 </Link>
                 <ul>
                     <li>
-                        <a href="#about">ABOUT</a>
+                        <Link href="/#about">
+                            <a href="#about">ABOUT</a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#howTo">HOW TO</a>
+                        <Link href="/#about">
+                            <a href="#howTo">HOW TO</a>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="/faq">
-                            <a>FAQS</a>
+                        <Link href="/faq#faq">
+                            <a href="#faq">FAQS</a>
                         </Link>
                     </li>
                     <li>
@@ -31,13 +35,7 @@ const Header = () => {
                 <div className={styles.truckWrap}>
                     <img className={styles.truck} src="/mobel.svg" alt="img" />
                 </div>
-
             </div>
-
-
-
-
-
         </header>
 
     );
